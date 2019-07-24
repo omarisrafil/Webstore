@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/stil.css">
+	<title>Log In</title>
+</head>
+<body>
+<div class="login-panel">
+	<div id="log-in">
+	<h1>Oturum Aç</h1>
+		<form action="/WebStore/LogIn" method="post" ><br>
+			E-Posta veya Kullanıcı adı:<br>
+			<input type="text" name="mail" placeholder="E-mail"><br>
+			Parola:<br>
+			<input type="password" name="parola" placeholder="Parola"><br>
+        	<br><input type="submit" class="btn" name="kayit" value="OTURUM AÇ">
+		</form>
+	</div>
+	<div id="sign-in">
+    <h1>Hesap olustur</h1>
+        <form action="/WebStore/SingIn" method="post">
+        	Ad: <br><input type="text" name="ad"><br>
+            Soyad: <br><input type="text" name="soyad"><br>
+            E-Posta: <br><input type="text" name="email" ><br>
+            Parola: <br><input type="password" name="parola" ><br>
+            Parola Tekrarı: <br><input type="password" name="parolatekrar" ><br>
+            Adres: <br><textarea name="address" cols="20" rows="5" style="width:250px;height:50px"></textarea><br>
+            <br><input type="submit" class="btn" name="signin" value="Sign In">
+         </form>
+	</div>
+</div>
+</body>
+</html>

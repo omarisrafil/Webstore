@@ -1,0 +1,166 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.page{
+	margin: 20px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #a0d29d;
+}
+.ustmenu ul {
+	font-family:'Arial';
+	font-size: 15px;
+    list-style-type: none;
+    margin: 0px ;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #595959;
+    text-align:center;
+    border-radius: 0 0 50px 50px;
+}
+.ustmenu li a {
+    color: #a0d29d;
+    text-align: center;
+    text-decoration: none;
+}
+.ustmenu ul li{
+	display: inline-block;
+	padding: 0 20px;
+	margin: 5px 0;
+}
+.ustmenu li a:hover  {
+    color: #ffffff;
+}
+.yanmenu{
+	font-family: 'Arial';
+	border-radius: 20px;
+	margin: 10px;
+	float:left;
+    background-color: #595959;
+    width: 140px;
+    height: 670px;
+    color: white;
+}
+.yanmenu ul{
+	color:#ffffff;
+	text-align: center;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.yanmenu li a{
+	display: block;
+    color: #a0d29d;
+    text-align: center;
+    padding: 16px;
+	text-decoration: none;
+}
+.yanmenu ul li{
+	display: block;
+	
+}
+.yanmenu li a:hover{
+	background-color:#a0d29d;
+	color:#ffffff;
+}
+.urundiv{
+	background-color: #74a97d;
+	width:150px;
+	margin:5px;
+	padding:15px;
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+}
+.ekle-container{
+	background-color: lightgrey;
+	border: 2px solid;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	float: left;
+	width: 48%;
+}
+.ekle-container form{
+	margin: 5px;
+}
+.urunupdate-container{
+	background-color: lightgrey;
+	border: 2px solid;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	float: right;
+	width:48%;
+	text-align:center;
+}
+.urunupdate-container form{
+	margin: 5px;
+}
+.urundelete-container{
+	text-align: center;
+	margin: 40px;
+	background-color: lightgrey;
+	border: 2px solid;
+	border-radius: 10px;
+	top:600px;
+	width: 100%;
+}
+.siparis{
+	border: 1px solid;
+	border-radius: 7px;
+	margin: 30px;
+}
+.siparis table{
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    padding: 15px;
+    align:center;
+    margin: 10px;
+	left: 80px;
+}
+.siparis table td,th{
+ 	border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+}
+.btn {
+	border-radius:4px;
+}
+.btn:hover {
+	background-color: darkgrey;
+	cursor:pointer;
+}
+.veri-tablosu{
+	align: center;
+	width: 100%;
+	border-collapse: collapse;
+	border-color: darkgrey;
+}
+.veri-tablosu th{
+	padding: 0px;
+	margin: 0px;
+}
+.veri-tablosu td{
+	text-align: center;
+	padding:3px;
+}
+.btn {
+	border-radius:4px;
+}
+.btn:hover{
+	background-color: darkgrey;
+	cursor:pointer;
+}
+#end-shopping{
+	align: left;
+	margin: 5px;
+	paddign: 5px;
+	right: 20px;
+	height:20px;
+}

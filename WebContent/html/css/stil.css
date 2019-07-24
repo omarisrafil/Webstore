@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+body{
+	font-family:'Arial';
+	margin: 0px;
+	padding: 0px;
+	background-color: #a0d29d;
+}
+.btn {
+	border-radius:4px;
+}
+.btn:hover{
+	background-color: darkgrey;
+	cursor:pointer;
+}
+.login-panel{
+	width-left:50%;
+	width-right:25%
+	padding: 15px;
+	margin: 60px;
+	background-color: #808080;
+	align: center;
+	border:1px solid;
+	border-radius:7px;
+}
+#log-in{
+	border: 1px solid;
+	text-align: center;
+	border-radius: 7px;
+	background-color: lightgrey;
+	margin: 20px;
+	padding: 10px;
+	
+}
+#sign-in{
+	margin: 20px;
+	border: 1px solid;
+	text-align: center;
+	border-radius: 7px;
+	background-color: lightgrey;
+	padding: 10px;
+	
+}
+#sign-in 

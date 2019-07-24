@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stil.css">
+    <title>Sign In</title>
+</head>
+<body>
+	<div id="sign-in">
+    <h1>Hesap olustur</h1>
+    	<p>Daha onceden kayit olduysaniz,lutfen <a href="/WebStore/html/LogInPage.html">oturum
+                acma </a> sayfasina gidiniz.</p>
+        <form action="/WebStore/SingIn" method="post">
+        	Ad: <br><input type="text" name="ad"><br>
+            Soyad: <br><input type="text" name="soyad"><br>
+            E-Posta: <br><input type="text" name="email" ><br>
+            Parola: <br><input type="password" name="parola" ><br>
+            Parola Tekrarı: <br><input type="password" name="parolatekrar" ><br>
+            Adres: <br><textarea name="address" cols="20" rows="5" style="width:250px;height:50px"></textarea><br>
+            <br><input type="submit" name="signin" value="Sign In">
+         </form>
+	</div>
+</body>
+</html>
