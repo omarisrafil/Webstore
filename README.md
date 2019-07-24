@@ -1,2 +1,2 @@
 # Webstore
-A store website using java (Servlets and JSP), MSSQL as database
+A store website using java (Servlets and JSP), Apache and MSSQL as database
